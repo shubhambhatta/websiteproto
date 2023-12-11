@@ -28,7 +28,7 @@ export default function Home() {
           className="custom-carousel"
           showThumbs={true}
           showStatus={false}
-          autoPlay={false}
+          autoPlay={true}
           infiniteLoop={true}
           interval={3000}
           renderThumbs={() => {
